@@ -2,14 +2,15 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.Random;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.ActionEvent;
 import javax.swing.JPanel;
-import java.awt.Graphics;
-import java.awt.event.KeyEvent;
+
 
 public class GamePanel extends JPanel implements ActionListener {
+
+    static final int SCREEN_WIDTH = 600;
+    static final int SCREEN_HEIGHT = 600;
+
+    
 
     GamePanel() { //constructor for GamePanel
 
