@@ -74,11 +74,14 @@ public class GamePanel extends JPanel implements ActionListener {
             y[0] = y[0] - UNIT_SIZE;
             break;  
         case 'D':
-            y[0] = y[0] - UNIT_SIZE;
+            y[0] = y[0] + UNIT_SIZE;
             break; 
         case 'L':
             x[0] = x[0] - UNIT_SIZE;
             break;   
+        case 'R':
+            x[0] = x[0] + UNIT_SIZE;
+            break;
         } 
     }
     
