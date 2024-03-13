@@ -100,7 +100,11 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void checkCollisions() {
-
+        for(int i = bodyParts; i > 0; i--) {
+            if((x[0] == x[i])&&(y[0] == y[i])) {
+                running = false;
+            }           
+        }
     }
 
     public void gameOver(Graphics g) {
