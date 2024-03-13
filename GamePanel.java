@@ -108,7 +108,10 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        
+        if(running) {
+            move();
+            checkApple();
+        }
     }
 
     public class MyKeyAdapter extends KeyAdapter {
