@@ -159,6 +159,11 @@ public class GamePanel extends JPanel implements ActionListener {
                         direction = 'U';
                     }
                     break;
+                case KeyEvent.VK_DOWN:
+                    if(direction != 'U') {
+                        direction = 'D';
+                    }
+                    break;
             }
         }
     }
