@@ -138,7 +138,7 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void gameOver(Graphics g) {
-
+        //Game Over text
     }
 
     public void actionPerformed(ActionEvent e) {
