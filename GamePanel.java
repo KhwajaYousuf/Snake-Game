@@ -142,6 +142,7 @@ public class GamePanel extends JPanel implements ActionListener {
         g.setFont(new Font("Ink Free", Font.BOLD, 75));
     }
 
+
     public void actionPerformed(ActionEvent e) {
         if(running) {
             move();
